@@ -16,19 +16,47 @@
 //   return result;
 // }
 
+// var a, b;
 
-var myGlobal = 10;
-function fun1() {
-  oopsGlobal = 5;
-}
+// b = 2;
 
-function fun2() {
-  var output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
-  }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
+// mul(b);
+
+// console.log(a); // ?
+
+// function mul (value) {
+
+//     var a;
+
+//     a = inc(value*2);
+
+// }
+
+// function inc (value) {
+
+//     return value + 1;
+
+// }
+
+
+
+// var hash = {};
+
+// hash["0"] = "a";
+
+// hash["3"] = "b";
+
+// hash["5"] = "c";
+
+// console.log(hash.length);
+
+
+var array = [];
+
+array[0] = "a";
+
+array[3] = "b";
+
+array[5] = "c";
+
+console.log(array.length);
